@@ -14,6 +14,50 @@ body{
   font-family: sans-serif;
   font-kerning: none;
   letter-spacing: 6px;
+}
 
+#subtitle{
+  font-weight: 400;
+  color: #10213d;
+  font-family: sans-serif;
+  font-kerning: none;
+  letter-spacing: 4px;
+}
+
+#bodies{
+  font-weight: 200;
+  color: #10213d;
+  font-family: sans-serif;
+  font-kerning: none;
+  letter-spacing: 2px;
+}
+a:link, a:visited{
+    color: #10213d;
+}
+a:hover, a:active{
+  color: #bac4d6;
+}
+
+a{
+  font-weight: 200;
+  color: #10213d;
+  font-family: sans-serif;
+  font-kerning: none;
+  letter-spacing: 2px;
+  animation-name: link;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 
 }
+
+@keyframes link {
+    from {color: #10213d;}
+    to {color: #547ec9;}
+}
+
+#bodies2{
+  font-weight: 200;
+  color: #10213d;
+  font-family: sans-serif;
+  font-kerning: none;
+  letter-spacing: 2px;
